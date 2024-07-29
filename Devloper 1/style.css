@@ -1,82 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 :root{
     --primary-color: #22c55e;
     --off-yellow:#fde047;
     --light-gray:#bbf7d0;
 }
-.navigation{
-    background-color: var(--primary-color);
-    color: var(--off-yellow);
-    padding: 1rem;
-}
-.navigation .nav-brand{
-    font-weight: bold;
-}
-.nav-brand a{
-    text-decoration: none;
-    /* color: inherit; */
-}
-.list-non-bullet{
-    list-style: none;
-}
-.list-item-inline{
-    display: inline;
-    padding: orem 0.5rem;
-}
-.navigation .nav-pills{
-    text-align: right;
-    margin: 0.6rem 1rem;
-}
-.navigation
-/* Header */
-.hero{
-    padding: 2rem;
-    padding-top: 5rem;
-}
-.hero .hero-img{
+.hero-img{
+    /* margin-left: 450px; */
     max-width: 80%;
-    width: 700px;
+    width: 500px;
     display: block;
     margin: auto;
 }
-.hero .hero-heading{
-    text-align: center;
-    padding: center;
-    padding-top: 1rem;
-    color:var(--primary-color);
+.hero-heading{
+    margin-left: 530px;
+    font-size: 33px;
+    color: yellowgreen;
 }
-.hero .hero-heading .heading-inverted{
-    color:var(--off-yellow);
+.navigation{
+    background-color: var(--primary-color);
+    color: var(--off-yellow);
 }
-/* section */
+.nav-brand {
+    text-decoration: none;
+    font-weight: bold;
+    width: 500px;
+    margin-left: 15px;
+}
+.nav-pills{
+    text-align: right;
+    display: flex;
+   margin-left: 1150px;
+}
+.write{
+   margin-top: 30px;
+   position: relative;
+   top: 40px;
+}
+.list-item{
+    list-style: none;
+    padding: 30px;
+}
+a{  
+    text-decoration: none;
+}
 .grey{
-    background-color: var(--light-gray);
-}
-.section{
+    background-color: yellowgreen;
+    border-radius: 1rem;
+    text-align: center;
     padding: 2rem;
     margin: 2rem;
-    border-radius: 1rem;
-    text-align: center;
 }
-.link{
-    /* box-sizing: border-box; */
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-}
-
 .link-primary{
-    background-color: var(--primary-color);
-    max-width: 140px;
-    padding: 0.6rem 1.2rem;
-    color: var(--off-yellow);
-    margin: 1rem auto;
-    border-radius: 2rem;
+    background-color: green;
+    border-radius: 0.5rem;
+    padding: 0.5rem 2rem;
 }
-.project{
-    padding: 1rem;
-    margin: 1rem;
-    border-radius: 1rem;
-    text-align: center;
-    background-color: #bbf7d0;
-}
-
